@@ -1,0 +1,1612 @@
+urn: urn:intuitem:risk:library:mapping-pssie-to-iso27001-2022
+locale: fr
+ref_id: mapping-pssie-to-iso27001-2022
+name: PSSI-E -> ISO/IEC 27001:2022
+description: Mapping from PSSI Etat to International standard ISO/IEC 27001:2022
+copyright: intuitem
+version: '1'
+publication_date: 2025-05-05
+provider: intuitem
+packager: intuitem
+dependencies:
+- urn:intuitem:risk:library:pssi-e
+- urn:intuitem:risk:library:iso27001-2022
+objects:
+  requirement_mapping_set:
+    urn: urn:intuitem:risk:req_mapping_set:mapping-pssie-to-iso27001-2022
+    ref_id: mapping-pssie-to-iso27001-2022
+    name: PSSI-E -> ISO/IEC 27001:2022
+    description: Mapping from PSSI Etat to International standard ISO/IEC 27001:2022
+    source_framework_urn: urn:intuitem:risk:framework:pssie
+    target_framework_urn: urn:intuitem:risk:framework:iso27001-2022
+    requirement_mappings:
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-act-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-act-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-act-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-act-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-rss
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-rss
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-rss
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-resp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-resp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-resp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-tiers
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.19
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-tiers
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-tiers
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.23
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-tiers
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.22
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-tiers
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.31
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-pil-pss/m
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-pil-pss/m
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-app-instr
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-app-instr
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-app-docs
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:org-app-docs
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.37
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-motiv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-motiv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-motiv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-motiv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.6
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-conf
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-conf
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-conf
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-conf
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.6
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-util
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-util
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-util
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-util
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.12
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-mouv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-mouv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-mouv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-nperm
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:rh-nperm
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:gdb-invent
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:gdb-invent
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:gdb-carto
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:gdb-qualif-sensi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:gdb-qualif-sensi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.12
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:gdb-qualif-sensi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.13
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:gdb-prot-is
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:gdb-prot-is
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.12
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:int-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:int-quot-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:int-quot-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.13
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:int-quot-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.37
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:int-pres-cs
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:int-pres-cs
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.31
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:int-rex-hb
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.23
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:int-rex-hs
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.23
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-zones
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-publ
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-publ
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-tech
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-tech
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.6
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-telecom
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.12
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ctrl
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ci-loc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ci-ctrlacc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ci-ctrlacc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ci-ctrlacc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-cj-tra-ce
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-cj-tra-ce
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ci-energie
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ci-energie
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ci-clim
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-ci-inc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-cl-eau
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-si-sur
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:phy-si-sur
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.6
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-maitrise
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-interco
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-entsor
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-prot
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-clois
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.22
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-ress
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-ress
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.22
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-internet-specifique
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-ssfil
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-couchbas
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-couchbas
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-routdyn
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-routdyn-igp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-routdyn-egp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-secret
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-secret
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-durci
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-carto
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:res-carto
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.27
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:archi-heberg
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.23
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:archi-heberg
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.27
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:archi-stockci
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.33
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:archi-stockci
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.13
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:archi-pass
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-prot-inf
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-trac
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.32
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-config
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-config
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.19
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-doc-config
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-doc-config
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.37
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-doc-config
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-id-auth
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-id-auth
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-id-auth
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-droits
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.18
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-droits
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-droits
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-profils
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-profils
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-profils
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-proc-auth
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-revue-auth
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-revue-auth
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.18
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-gest-pass
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-init-pass
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-pol-pass
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-certifs
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-qual-pass
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-seq-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-seq-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-pol-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-pol-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dep-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dep-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-restr-droits
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-restr-droits
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.18
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-prot-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-habilit-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-gest-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-gest-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-gest-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.19
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-sec-fluxadmin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-pol
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-pass
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-nomenclat
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-restadmin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.18
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-serv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-serv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-limitserv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-limitserv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-obsolet
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-obsolet
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-adminloc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.18
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-dom-adminloc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.19
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-maint-ext
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-maint-ext
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.25
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-mis-reb
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-mis-reb
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.14
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-prot-mal-v
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-prot-mal-v
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-prot-mal-v
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.18
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ges-antivir
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ges-antivir
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ges-antivir
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.18
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-maj-antivir
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-maj-antivir
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-navig
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-pol-cor
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.32
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cor-sec
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.32
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-obsolet
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.32
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-jour-sur
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.28
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-jour-sur
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-pol-jour
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.28
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-pol-jour
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cons-jour
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.28
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cons-jour
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.33
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cons-jour
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-mait-mat
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-mait-mat
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-prot-vol
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-prot-vol
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.25
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-declar-vol
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-declar-vol
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-reaffect
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-nomad-sens
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-ltp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-ltp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.19
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-ltp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-ltp
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.23
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-lta
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-lta
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.19
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-lta
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-ltd
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-ltd
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.19
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-ltd
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-protfic
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.14
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-messtech
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.14
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cl-filt
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.14
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cl-filt
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cl-filt
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.22
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cj-admin
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-effac
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-effac
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-destr
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-destr
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cl-trac
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.28
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cl-trac
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.17
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-supervis
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.22
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-amov
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-accres
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.20
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-ci-accres
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cl-audit
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cl-audit
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.36
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:exp-cl-audit
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.31
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-gest
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.11
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-gest
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-config
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-config
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-verouil-fixe
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-verouil-fixe
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-verouil-port
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-verouil-port
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-privjl
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-privjl
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-privjl
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-privjl
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-priv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-priv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-priv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-priv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-priv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-adm-local
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.15
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-adm-local
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.16
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-adm-local
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-adm-local
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-stock
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.33
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-stock
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-sauv-loc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.33
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-sauv-loc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-sauv-loc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.13
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-suppr-part
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.3
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-suppr-part
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-chiff-sens
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-chiff-sens
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-chiff-sens
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-chiff-sens
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-amov
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-amov
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-amov
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.10
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-access
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-access
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-access
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-parefeu
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-parefeu
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-parefeu
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-parefeu
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.23
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-stock
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-stock
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-stock
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-filt
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-filt
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-filt
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-connex
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-connex
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-connex
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-desactiv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.7
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-desactiv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.9
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-nomad-desactiv
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-mul-durciss
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-mul-durciss
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-mul-secnum
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.7.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-tel-dect
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pdt-conf-verif
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.1
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-integr-secloc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-integr-secloc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.26
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-sous-trait
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-sous-trait
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.22
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-sous-trait
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.21
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-sous-trait
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-sous-trait
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.26
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-sous-trait
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.30
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-fuites
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-fuites
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.12
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-log-adher
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-log-crit
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-log-crit
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-log-cycle
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-log-cycle
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.25
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-log-web
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-log-web
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.2
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-log-pass
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:dev-fil-t-appl
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:ti-ops-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:ti-ops-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.6
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:ti-ops-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.26
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:ti-ops-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.6.8
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:ti-mob
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:ti-mob
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.26
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:ti-qual-trait
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.25
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:ti-inc-rem
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.5
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-minis
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-minis
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.29
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-local
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-local
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.29
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-suivilocal
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-suivilocal
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.29
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-proc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-proc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.29
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-sauve
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-sauve
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.29
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-sauve
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.33
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-sauve
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.13
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-prot
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-prot
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.29
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-prot
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.8.13
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-exerc
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-misajour
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.24
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:pca-misajour
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.25
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:contr-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
+    - source_requirement_urn: urn:intuitem:risk:req_node:pssie:contr-bilan-ssi
+      target_requirement_urn: urn:intuitem:risk:req_node:iso27001-2022:a.5.4
+      relationship: intersect
+      rationale: null
+      stregth_of_relationship: null
